@@ -12,6 +12,31 @@ from './components/Informations.vue';
         </div>
     </main>
 </template>
+<script setup lang="ts">
+useSeoMeta({
+    description: "Hugo Capezzone's portfolio",
+    ogDescription: "Hugo Capezzone's portfolio",
+    ogImage: 'https://yuuzora.github.io/nuxt_github_page/img/portrait.webp',
+    twitterTitle: 'Hugo Capezzone | Front End Developer',
+    twitterDescription: "Hugo Capezzone's portfolio",
+    twitterImage:
+        'https://yuuzora.github.io/nuxt_github_page/img/portrait.webp',
+    twitterCard: 'summary',
+})
+
+useHead({
+    htmlAttrs: {
+        lang: 'en',
+    },
+    link: [
+        {
+            rel: 'icon',
+            type: 'image/png',
+            href: '/favicon.png',
+        },
+    ],
+})
+</script>
 <style lang="scss">
 main {
     display: flex;

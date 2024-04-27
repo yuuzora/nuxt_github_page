@@ -6,9 +6,10 @@ export default defineNuxtConfig({
         url: 'https://hugocapezzone.me',
     },
     app: {
-        baseURL: '/yuuzora.github.io/',
+        baseURL: '/nuxt_github_page/',
         buildAssetsDir: 'assets',
         head: {
+            titleTemplate: '%s',
             title: 'Hugo Capezzone | Front End Developer',
             meta: [
                 {

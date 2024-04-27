@@ -10,7 +10,10 @@
     </nav>
     <Details>
         <template #image>
-            <img src="/img/gundam.webp" alt="gundam" />
+            <img
+                src="https://yuuzora.github.io/nuxt_github_page/img/gundam.webp"
+                alt="gundam"
+            />
         </template>
         <template #title>
             Based near Paris. Working as a software engineer since 2017
@@ -27,7 +30,10 @@
     </Details>
     <Details inversed>
         <template #image>
-            <img src="/img/kyoto.webp" alt="kiyomizu-dera" />
+            <img
+                src="https://yuuzora.github.io/nuxt_github_page/img/kyoto.webp"
+                alt="kiyomizu-dera"
+            />
         </template>
         <template #text>
             I enjoy taking portrait and travel photography. <br />

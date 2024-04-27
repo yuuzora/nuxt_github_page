@@ -1,5 +1,9 @@
 <template>
-    <img class="transition__banner" src="/img/crow.webp" alt="crow" />
+    <img
+        class="transition__banner"
+        src="https://yuuzora.github.io/nuxt_github_page/img/crow.webp"
+        alt="crow"
+    />
 </template>
 <script setup lang="ts"></script>
 <style scoped lang="scss">
