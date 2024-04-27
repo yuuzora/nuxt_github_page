@@ -14,6 +14,9 @@ from './components/Informations.vue';
 </template>
 <script setup lang="ts">
 useSeoMeta({
+    ogTitle: 'Hugo Capezzone | Front End Developer',
+    ogUrl: 'https://hugocapezzone.me/',
+    ogSiteName: "Hugo Capezzone's portfolio",
     description: "Hugo Capezzone's portfolio",
     ogDescription: "Hugo Capezzone's portfolio",
     ogImage: 'https://yuuzora.github.io/nuxt_github_page/img/portrait.webp',
@@ -22,6 +25,7 @@ useSeoMeta({
     twitterImage:
         'https://yuuzora.github.io/nuxt_github_page/img/portrait.webp',
     twitterCard: 'summary',
+    ogImageUrl: 'https://yuuzora.github.io/nuxt_github_page/img/portrait.webp',
 })
 
 useHead({
