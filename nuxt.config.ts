@@ -6,7 +6,7 @@ export default defineNuxtConfig({
         url: 'https://hugocapezzone.me',
     },
     app: {
-        baseURL: '/Zack-Strife.github.io/',
+        baseURL: '/yuuzora.github.io/',
         buildAssetsDir: 'assets',
         head: {
             title: 'Hugo Capezzone | Front End Developer',
