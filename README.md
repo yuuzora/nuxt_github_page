@@ -1,1 +1,3 @@
 # yuuzora.github.io
+
+Init
