@@ -1,0 +1,11 @@
+@import './fonts';
+@import './colors';
+
+body {
+    background-color: var(--color-background);
+}
+html, body {
+    font-family: 'Lunasima', sans-serif;
+    font-size: 1rem;
+    color: white;
+}

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'The Sunset';
+    src: url('/fonts/TheSunsetRegular.woff2') format('woff2'),
+        url('/fonts/TheSunsetRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beon';
+    src: url('/fonts/Beon-Regular.woff2') format('woff2'),
+        url('/fonts/Beon-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lunasima';
+    src: url('Lunasima-Bold.woff2') format('woff2'),
+        url('Lunasima-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lunasima';
+    src: url('Lunasima-Regular.woff2') format('woff2'),
+        url('Lunasima-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

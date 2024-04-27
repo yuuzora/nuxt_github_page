@@ -1,3 +1,1 @@
-# yuuzora.github.io
-
-Init
+# Personal portfolio
